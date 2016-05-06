@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server www -p ${PORT:-3000}",
-    "build": "jade view --obj data.json -o www; browserify -v -t babelify lib/index -o www/js/index.js; stylus -u nib -u griddy style/index.styl -o www/css/styles.css",
-    "watch": "jade view --obj data.json  -o www -w | watchify -v -t babelify lib/index.js -o www/js/index.js | stylus -u nib -u griddy style/index.styl -w -o www/css/styles.css",
+    "build": "jade view --obj data.json -o www; browserify -v -t babelify lib/index -o www/js/index.js; stylus -u nib -u griddy style/*.styl -o www/css",
+    "watch": "jade view --obj data.json  -o www -w | watchify -v -t babelify lib/index.js -o www/js/index.js | stylus -u nib -u griddy style/*.styl -w -o www/css",
     "dev": "livereload www | http-server www -p ${PORT:-3000} | npm run watch"
   },
   "author": "",
