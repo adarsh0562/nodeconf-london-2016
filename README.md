@@ -1,6 +1,6 @@
 ## NodeConf London 2016 Website
 
-> Simple static website built using Jade, Stylus, Browserify + Babelify
+> Simple static website built using Jade, Stylus, Browserify + Babelify - http://london.nodeconf.com/
 
 #### Build
 
