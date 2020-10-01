@@ -1,4 +1,4 @@
-## NodeConf London 2016 Website
+## NodeConf London 2016 Awesome Website
 
 > Simple static website built using Jade, Stylus, Browserify + Babelify - http://london.nodeconf.com/
 
@@ -26,7 +26,7 @@ Default port is `3000`, but the `start` script will accept a `PORT` environment 
 
 #### Develop
 
-You can run static-server, watching of changes and livereloading of the codebase with a single command:
+You can run static-server, watching of changes and live Reloading of the codebase with a single command:
 
 ```
 npm run dev
